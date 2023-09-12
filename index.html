@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/165c68cb9a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Chat App</title>
+</head>
+<body>
+  <main>
+
+    <!--This part is for the background-->
+    <div id="background">
+    </div>
+    <!--This part is for the phone and text display-->
+    <div id="container">
+      <div id="phone">
+        <div id="screen">
+          <div id="camera"></div>
+          <div id="phone-header">
+            <i class="fa-solid fa-chevron-left"></i>
+            <div id="avatar">
+              <img src="images\avatar.jpg" alt="Avatar's picture" id="avatar-pic">
+            </div>
+            <div id="avatar-infos">
+              <div id="text">
+                <h2 id="name">Samuel Green</h2>
+                <p id="statut">Available to Walk</p>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            
+          </div>
+          <div class="received-bubble">
+            <p class="received-text text">That sounds great. I'd be happy with that.</p>
+          </div>
+          <div class="received-bubble">
+            <p class="received-text text">Could you send over some pictures of your dog please ?</p>
+          </div>
+          <div id="dog-images">
+            <img src="images\dog-image-1.jpg" alt="Dog 1" class="dogs">
+            <img src="images\dog-image-2.jpg" alt="Dog 2" class="dogs">
+            <img src="images\dog-image-3.jpg" alt="Dog 3" class="dogs">
+          </div>
+          <div class="sent-bubble" id="sent-bubble-1">
+            <p class="sent-text text">Here are a few pictures. She's a happy girl!</p>
+          </div>
+          <div class="sent-bubble" id="sent-bubble-2">
+            <p class="sent-text text">Can you make it?</p>
+          </div>
+          <div class="received-bubble">
+            <p class="received-text text">She looks so happy! The time we discussed works. How long shall I take her out for ?</p>
+          </div>
+          <div class="options">
+            <div class="option-text">
+              <div class="checkcircle"></div>
+              <p>30 minutes walk</p>
+            </div>
+            <span class="price">$29</span>
+          </div>
+          <div class="options">
+            <div class="option-text">
+              <div class="checkcircle"></div>
+              <p>1 hour walk</p>
+            </div>
+            <span class="price">$49</span>
+          </div>
+          <div id="typing-area">
+            <p>Type a message...</p>
+            <div id="chevron-container">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- This part is for the text at the right of the phone -->
+      <div id="description">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all book again all through the chat.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
